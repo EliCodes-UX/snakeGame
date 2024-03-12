@@ -11,6 +11,7 @@ let direction = 'right';
 let gameInterval;
 let gameSpeedDelay = 200;
 let gameStarted = false;
+let highScore = 0;
 
 // draw gameboard, snake, food
 function draw() {
